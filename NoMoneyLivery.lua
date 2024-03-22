@@ -31,8 +31,6 @@ local function update()
 		if livery_id == max_livery_id then
 			entities.set_upgrade_value(vehicle, VMT_LIVERY_MOD, new_livery_id)
 		end
-		
-		return
 	end
 
 	-- vehicle check
